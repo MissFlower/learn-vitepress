@@ -1,0 +1,19 @@
+{
+  "name": "vitepress-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "docs"
+  ],
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3",
+    "vitepress": "^1.0.0-alpha.15",
+    "vue": "^3.2.39"
+  }
+}
