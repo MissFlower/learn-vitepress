@@ -16,28 +16,29 @@ export const config: UserConfig = {
       icon: 'github',
       link: 'https://github.com/MissFlower/ai-vue-next'
     }, ],
-    sidebar: {
-      '/guide/': [
-        {
-          text: 'Guide',
-          items: [
-            // This shows `/guide/index.md` page.
-            { text: 'Index', link: '/guide/' }, // /guide/index.md
-            { text: 'One', link: '/guide/one' }, // /guide/one.md
-            { text: 'Two', link: '/guide/two' } // /guide/two.md
-          ]
-        }
-      ],
-      '/component/': [
-        {
-          text: 'Component',
-          items: [
-            { text: 'Index', link: '/component/' },
-            { text: 'Button', link: '/component/button' }, 
-          ]
-        }
-      ]
-    },
+    sidebars,
+    // sidebar: {
+    //   '/guide/': [
+    //     {
+    //       text: 'Guide',
+    //       items: [
+    //         // This shows `/guide/index.md` page.
+    //         { text: 'Index', link: '/guide/' }, // /guide/index.md
+    //         { text: 'One', link: '/guide/one' }, // /guide/one.md
+    //         { text: 'Two', link: '/guide/two' } // /guide/two.md
+    //       ]
+    //     }
+    //   ],
+    //   '/component/': [
+    //     {
+    //       text: 'Component',
+    //       items: [
+    //         { text: 'Index', link: '/component/' },
+    //         { text: 'Button', link: '/component/button' }, 
+    //       ]
+    //     }
+    //   ]
+    // },
     algolia: {
       appId: 'RVMP1DL10N',
       apiKey: 'b6698444fb6414c2328728cdbc9eb681',
